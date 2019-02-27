@@ -1,0 +1,55 @@
+{
+  "build": {
+    "content": [
+      {
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ],
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ]
+      }
+    ],
+    "dest": "docsetNameNoMatch",
+    "externalReference": [],
+    "fileMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/docsetNameNoMatch/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "feedback_github_repo": "MicrosoftDocs/azure-docs",
+      "feedback_product_url": "https://feedback.azure.com/forums/34192--general-feedback",
+      "feedback_system": "GitHub",
+      "ms.author": "Winn Wang",
+      "newAddedMetatdata": "For testing",
+      "searchScope": [
+        "Azure"
+      ],
+      "titleSuffix": "Power BI"
+    },
+    "markdownEngineName": "markdig",
+    "overwrite": [],
+    "resource": [
+      {
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**"
+        ],
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ]
+      }
+    ],
+    "template": []
+  }
+}

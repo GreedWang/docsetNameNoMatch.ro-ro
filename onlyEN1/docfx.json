@@ -1,0 +1,47 @@
+{
+  "build": {
+    "content": [
+      {
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ],
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ]
+      }
+    ],
+    "dest": "onlyEN1",
+    "externalReference": [],
+    "fileMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/onlyEN1/breadcrumb/toc.json",
+      "feedback_system": "None",
+      "is_retired": true
+    },
+    "markdownEngineName": "markdig",
+    "overwrite": [],
+    "resource": [
+      {
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**"
+        ],
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ]
+      }
+    ],
+    "template": []
+  }
+}
